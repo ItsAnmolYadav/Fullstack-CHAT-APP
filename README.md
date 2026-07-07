@@ -62,8 +62,8 @@ socket.on("messageDeleted", ({ messageId }) => { /* Cascade Delete UI */ });
 🚀 Getting Started
 1. Clone the repository
 Bash
-git clone https://github.com/yourusername/realtime-chat-engine.git
-cd realtime-chat-engine
+git clone https://github.com/Anmol1578/Z-CHAT.git
+cd Z-CHAT
 2. Install dependencies
 Bash
 # Install Frontend dependencies
