@@ -6,27 +6,26 @@
 
 Z-CHAT is a full-stack real-time messaging application built for performance and usability across all devices. It features JWT-based authentication, Cloudinary-powered media uploads, bidirectional WebSocket communication, and a carefully engineered hybrid UX that adapts seamlessly between desktop and mobile workflows — including iOS safe-zone support and virtual keyboard layout handling.
 
----
 
-## Screenshots
+SCREENSHOTS 
 
-#### Sign Up Page
-<img width="800" alt="Sign up page" src="https://github.com/user-attachments/assets/272d810a-252f-4023-a18c-53296482f0f9" />
+SIGN UP PAGE  
+<img width="1917" height="989" alt="Screenshot 2026-07-11 223718" src="https://github.com/user-attachments/assets/272d810a-252f-4023-a18c-53296482f0f9" />
 
-#### Home Page
-<img width="800" alt="Home page" src="https://github.com/user-attachments/assets/cfdc4b68-4fdc-4808-b708-6c9e796f8fb9" />
+HOME PAGE
+<img width="1916" height="987" alt="Screenshot 2026-07-11 223744" src="https://github.com/user-attachments/assets/cfdc4b68-4fdc-4808-b708-6c9e796f8fb9" />
 
-#### Chat
-<img width="550" alt="Chat interface" src="https://github.com/user-attachments/assets/40dbaf99-2d52-41ad-aaf1-52ef2914652b" />
+CHAT
+<img width="1289" height="919" alt="Screenshot 2026-07-11 223826" src="https://github.com/user-attachments/assets/40dbaf99-2d52-41ad-aaf1-52ef2914652b" />
 
-#### Delete Features
-<img width="450" alt="Delete features" src="https://github.com/user-attachments/assets/3110d343-373c-4162-b779-efd6bdc9901c" />
+DELETE FEATURES
+<img width="886" height="861" alt="Screenshot 2026-07-11 223940" src="https://github.com/user-attachments/assets/3110d343-373c-4162-b779-efd6bdc9901c" />
 
-#### Profile Page
-<img width="550" alt="Profile page" src="https://github.com/user-attachments/assets/1444445a-947c-4069-a2f5-a7b1910067b9" />
+PROFILE PAGE
+<img width="1473" height="932" alt="Screenshot 2026-07-11 223920" src="https://github.com/user-attachments/assets/1444445a-947c-4069-a2f5-a7b1910067b9" />
 
-#### Settings
-<img width="500" alt="Settings page" src="https://github.com/user-attachments/assets/1fc82e89-b92c-4512-80bd-a0a6cbe46d70" />
+SETTINGS
+<img width="1169" height="937" alt="Screenshot 2026-07-11 223852" src="https://github.com/user-attachments/assets/1fc82e89-b92c-4512-80bd-a0a6cbe46d70" /> 
 
 ---
 
@@ -101,6 +100,7 @@ Z-CHAT is a full-stack real-time messaging application built for performance and
 
 ## 📂 Project Structure
 
+```
 z-chat/
 ├── frontend/
 │   ├── src/
@@ -122,19 +122,20 @@ z-chat/
 │   └── vite.config.js
 │
 └── backend/
-└── src/
-├── controllers/
-│   ├── auth.controller.js     # signup, login, logout, updateProfile, deleteAccount
-│   └── message.controller.js  # getMessages, sendMessage, deleteConversation, clearAllChats
-├── routes/
-│   ├── auth.route.js          # /api/auth/*
-│   └── message.route.js       # /api/messages/*
-├── middleware/
-│   └── auth.middleware.js     # protectRoute (JWT verification)
-├── lib/
-│   ├── db.js                  # MongoDB connection
-│   └── socket.js              # Socket.io server + online user map
-└── index.js                   # App entry point
+    └── src/
+        ├── controllers/
+        │   ├── auth.controller.js     # signup, login, logout, updateProfile, deleteAccount
+        │   └── message.controller.js  # getMessages, sendMessage, deleteConversation, clearAllChats
+        ├── routes/
+        │   ├── auth.route.js          # /api/auth/*
+        │   └── message.route.js       # /api/messages/*
+        ├── middleware/
+        │   └── auth.middleware.js     # protectRoute (JWT verification)
+        ├── lib/
+        │   ├── db.js                  # MongoDB connection
+        │   └── socket.js              # Socket.io server + online user map
+        └── index.js                   # App entry point
+```
 
 ---
 
