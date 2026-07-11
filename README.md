@@ -6,6 +6,27 @@
 
 Z-CHAT is a full-stack real-time messaging application built for performance and usability across all devices. It features JWT-based authentication, Cloudinary-powered media uploads, bidirectional WebSocket communication, and a carefully engineered hybrid UX that adapts seamlessly between desktop and mobile workflows — including iOS safe-zone support and virtual keyboard layout handling.
 
+
+SCREENSHOTS 
+
+SIGN UP PAGE  
+<img width="1917" height="989" alt="Screenshot 2026-07-11 223718" src="https://github.com/user-attachments/assets/272d810a-252f-4023-a18c-53296482f0f9" />
+
+HOME PAGE
+<img width="1916" height="987" alt="Screenshot 2026-07-11 223744" src="https://github.com/user-attachments/assets/cfdc4b68-4fdc-4808-b708-6c9e796f8fb9" />
+
+CHAT
+<img width="1289" height="919" alt="Screenshot 2026-07-11 223826" src="https://github.com/user-attachments/assets/40dbaf99-2d52-41ad-aaf1-52ef2914652b" />
+
+DELETE FEATURES
+<img width="886" height="861" alt="Screenshot 2026-07-11 223940" src="https://github.com/user-attachments/assets/3110d343-373c-4162-b779-efd6bdc9901c" />
+
+PROFILE PAGE
+<img width="1473" height="932" alt="Screenshot 2026-07-11 223920" src="https://github.com/user-attachments/assets/1444445a-947c-4069-a2f5-a7b1910067b9" />
+
+SETTINGS
+<img width="1169" height="937" alt="Screenshot 2026-07-11 223852" src="https://github.com/user-attachments/assets/1fc82e89-b92c-4512-80bd-a0a6cbe46d70" /> 
+
 ---
 
 ## ✨ Features
